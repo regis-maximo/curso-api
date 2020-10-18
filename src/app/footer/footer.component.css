@@ -1,0 +1,24 @@
+.red {
+    color: darkred;
+    vertical-align: middle;
+}
+
+.name-dev {
+    color: rgb(255, 115, 1);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+}
+
+.footer span {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.coracao {
+    vertical-align: middle;
+    color: rgb(224, 55, 55);
+}

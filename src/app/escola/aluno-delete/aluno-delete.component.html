@@ -1,0 +1,19 @@
+<mat-card>
+    <section>
+        <h3>Deletar Aluno</h3>
+        <div class="example-container">
+            <mat-form-field appearance="legacy">
+                <mat-label>Nome</mat-label>
+                <input matInput type="text" readonly [(ngModel)]="aluno.name" name="name">
+            </mat-form-field>
+        </div>
+        <div class="example-container">
+            <mat-form-field appearance="legacy">
+                <mat-label>Curso</mat-label>
+                <input matInput type="text" readonly [(ngModel)]="aluno.curso" name="curso">
+            </mat-form-field>
+        </div>
+        <button class="btnVoltar" mat-raised-button color="primary" (click)="voltar()">Voltar</button>
+        <button class="btnSalvar" mat-raised-button color="warn" (click)="delete()">Excluir</button>
+    </section>
+</mat-card>

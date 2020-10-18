@@ -1,0 +1,19 @@
+<mat-card>
+    <section>
+        <h3>Cadastro de Aluno</h3>
+        <div class="example-container">
+            <mat-form-field appearance="legacy">
+                <mat-label>Nome</mat-label>
+                <input matInput type="text" name="name" [(ngModel)]="aluno.name">
+            </mat-form-field>
+        </div>
+        <div class="example-container">
+            <mat-form-field appearance="legacy">
+                <mat-label>Curso</mat-label>
+                <input matInput type="text" name="curso" [(ngModel)]="aluno.curso">
+            </mat-form-field>
+        </div>
+        <button class="btnVoltar" mat-button color="basic" (click)="voltar()">Voltar</button>
+        <button class="btnSalvar" mat-button color="primary" (click)="create()">Salvar</button>
+    </section>
+</mat-card>

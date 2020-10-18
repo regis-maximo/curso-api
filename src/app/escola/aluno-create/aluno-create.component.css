@@ -1,0 +1,10 @@
+.btnSalvar {
+    background-color: rgb(62, 62, 240);
+    color: beige;
+}
+
+.btnVoltar {
+    background-color: beige;
+    color: gray;
+    margin-right: 4rem;
+}

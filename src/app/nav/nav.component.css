@@ -1,0 +1,17 @@
+.sidenav {
+    background-color: rgb(231, 230, 230);
+}
+
+.nav-list {
+    width: 200px;
+}
+
+.nav-list i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #FFF;
+    color: #000;
+}
